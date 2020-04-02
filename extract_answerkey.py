@@ -22,8 +22,8 @@ class extract_answerkey:
         self.synonymy_symptom=self.create_synonymy_dict()#前半部分同义词
         self.stopwords=self.create_dict(cur_dir+"词典分类/stopwords.txt")#停用词
         self.wdtype_dict=self.build_wdtype_dict()
-        self.model = gensim.models.Word2Vec.load('fenci//test.word2vec')
-        self.vocab = self.create_dict(cur_dir + "fenci/vocab.txt")  # 词向量模型中所有的词
+        self.model = gensim.models.Word2Vec.load('word2vec_model//test.word2vec')
+        self.vocab = self.create_dict(cur_dir + "word2vec_model/vocab.txt")  # 词向量模型中所有的词
         # print(self.time_recent_dict)
         # print(self.time_furthest_dict)
         # print(self.deny_dict)

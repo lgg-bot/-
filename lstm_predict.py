@@ -76,7 +76,7 @@ class LSTMNER:
         tags = [self.label_dict[i] for i in result][len(result)-len(text):]
         #print(tags)
         res = list(zip(chars, tags))
-        #print(res)
+        print(res)
         #self.match_key(chars,tags)
         return chars,tags
 

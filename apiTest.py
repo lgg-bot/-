@@ -31,6 +31,16 @@ class apiTest:
                 return [item['sentiment'], item['confidence'], item['positive_prob']]
         return False
 
+    def word2vec(self, text):
+        '''
+        转词向量
+        :param text:只能是 词， 不能是句子
+        :return:List, 词向量
+        '''
+        response = self.client.wordEmbedding(text);
+        if ('error_code' not in response):
+            return response['vec']
+        return False
 
 # if __name__ == '__main__':
 #     test = apiTest()

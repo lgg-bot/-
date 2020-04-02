@@ -1,5 +1,5 @@
 from extract_answerkey import *
-from sim_cilin import *
+from sim_symptoms import *
 from lstm_predict import *
 from apiTest import *
 
@@ -19,35 +19,43 @@ class ChatBotGraph:
 
     def chat_main(self, sent):
         # 获取关键词
+        result_key=[]
+        final_scores=[]
+        res=[]
         chars,tags=self.lstm_predict.predict(sent)
-        key1=self.lstm_predict.match_key(chars,tags)
-        key2=self.extract_answerkey.ti_idf(sent)
-        key=key1+key2
-        if len(key) != 0:
-            result_key=set(key)#最终关键词
-            tran_key=(",".join(list(result_key)))#关键词拼接去寻找相似症状
-
-            #获取句子正负情绪
-            sentiment_result=self.apiTest.sentiment(sent)
+        key1=self.lstm_predict.match_key(chars,tags)#提取症状
+        if len(key1) != 0:#能提取到症状词，再提取症状修饰词这些
+            key2=self.extract_answerkey.ti_idf(sent)
+            key=key1+key2
+            result_key=list(set(key))#最终关键词
+            if "抑郁症" in result_key:#特殊情况处理(抑郁症匹配效果不好，转换为抑郁）
+                i=result_key.index("抑郁症")
+                result_key[i]="抑郁"
+            result_key = list(set(result_key))
+            tran_key=(",".join(result_key))#关键词拼接去寻找相似症状
 
             #获取相似症状
             final_scores,res=self.sim_cilin.key_match_finalkey(tran_key)
 
-            #获取程度词，时间词，频率词
-            other_result=self.extract_answerkey.match_otheranswer(sent)
-            print("结果".center(50, "*"))
-            if sentiment_result[2]>0.9:#积极
+        # 获取句子正负情绪，主要用于是否输出关键词
+        sentiment_result = self.apiTest.sentiment(sent)
+
+        #获取程度词，时间词，频率词
+        other_result=self.extract_answerkey.match_otheranswer(sent)
+        print("结果".center(50, "*"))
+        if sentiment_result[2]>0.9:#积极
+            if len(final_scores)>0:#如果没有匹配到相似症状，则没有必要显示关键词
                 print("关键词：",result_key)
-                print(("相似的症状的评分: " + str(final_scores)))
-                print(("相似的症状: " + str(res)))
-                print("程度词，时间词，频率词:",other_result)
-            else:
-                print(("相似的症状的评分: " + str(final_scores)))
-                print(("相似的症状: " + str(res)))
-                print("程度词，时间词，频率词:",other_result)
-            print("end".center(54, "-"), "\n")
+            print(("相似的症状的评分: " + str(final_scores)))
+            print(("相似的症状: " + str(res)))
+            print("程度词，时间词，频率词:",other_result)
         else:
-            print("抱歉，没有匹配到关键词")
+            print(("相似的症状的评分: " + str(final_scores)))
+            print(("相似的症状: " + str(res)))
+            print("程度词，时间词，频率词:",other_result)
+        print("end".center(54, "-"))
+        # else:
+        #     print("抱歉，没有匹配到关键词")
 
 
 
