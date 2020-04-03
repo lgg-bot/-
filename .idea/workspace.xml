@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="462f94d2-16f7-4ad6-b9e5-530063c3edb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataCrawler/ti-idf_train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCrawler/deal_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataCrawler/deal_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataCrawler/initial_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DataCrawler/word2vec_train.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apiTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract_answerkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_answerkey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lstm_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/lstm_predict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sim_cilin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sim_symptoms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stopwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer_sym.txt" beforeDir="false" afterPath="$PROJECT_DIR$/transfer_sym.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word2vec_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/word2vec_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/最终症状.txt" beforeDir="false" afterPath="$PROJECT_DIR$/最终症状.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/词典分类/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/词典分类/stopwords.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sim_symptoms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="175" column="20" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="20" />
+            <state relative-caret-position="4455">
+              <caret line="175" column="37" selection-start-line="175" selection-start-column="32" selection-end-line="175" selection-end-column="42" />
               <folding>
                 <element signature="e#40#51#0" expanded="true" />
               </folding>
@@ -37,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stopwords.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41202">
-              <caret line="1526" column="2" lean-forward="true" selection-start-line="1526" selection-start-column="2" selection-end-line="1526" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -49,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/词典分类/stopwords.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="50841">
               <caret line="1883" column="2" lean-forward="true" selection-start-line="1883" selection-start-column="2" selection-end-line="1883" selection-end-column="2" />
             </state>
           </provider>
@@ -58,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/word2vec_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="189">
               <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -67,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="195">
+              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -80,9 +68,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataCrawler/deal_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/最终症状.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="2160">
               <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
             </state>
           </provider>
@@ -100,17 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/x.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lstm_predict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1912">
-              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+            <state relative-caret-position="594">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -118,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lstm_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3343">
+            <state relative-caret-position="486">
               <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
             </state>
           </provider>
@@ -135,12 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>闲着</find>
-      <find>sym</find>
-      <find>一般</find>
-      <find>model3</find>
-      <find>心情</find>
-      <find>自我</find>
       <find>兴趣</find>
       <find>自责</find>
       <find>性生活不快乐</find>
@@ -160,6 +145,17 @@
       <find>躯体</find>
       <find>哭</find>
       <find>想</find>
+      <find>身体疾病</find>
+      <find>希望自己已经死去</find>
+      <find>想要自残</find>
+      <find>失去兴趣</find>
+      <find>失去价值感</find>
+      <find>失去愉快感</find>
+      <find>情绪低落</find>
+      <find>自杀想法</find>
+      <find>思维缓慢</find>
+      <find>自杀行为</find>
+      <find>虚弱</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,15 +169,15 @@
         <option value="$PROJECT_DIR$/extract_answerkey.py" />
         <option value="$PROJECT_DIR$/lstm_predict.py" />
         <option value="$PROJECT_DIR$/apiTest.py" />
-        <option value="$PROJECT_DIR$/x.py" />
         <option value="$PROJECT_DIR$/word2vec_test.py" />
         <option value="$PROJECT_DIR$/DataCrawler/deal_data.py" />
         <option value="$PROJECT_DIR$/sim_symptoms.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/transfer_sym.txt" />
         <option value="$PROJECT_DIR$/最终症状.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/词典分类/stopwords.txt" />
+        <option value="$PROJECT_DIR$/x.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -196,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,17 +202,18 @@
             <path>
               <item name="word2vec" type="b2602c69:ProjectViewProjectNode" />
               <item name="word2vec" type="462c0819:PsiDirectoryNode" />
-              <item name="词典分类" type="462c0819:PsiDirectoryNode" />
+              <item name="DataCrawler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../word2vec_1.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -346,9 +342,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.x" />
         <item itemvalue="Python.deal_data" />
         <item itemvalue="Python.word2vec_test" />
-        <item itemvalue="Python.x" />
         <item itemvalue="Python.sim_cilin" />
       </list>
     </recent_temporary>
@@ -364,6 +360,14 @@
       <option name="presentableId" value="Default" />
       <updated>1585704798256</updated>
     </task>
+    <task id="LOCAL-00001" summary="修改相似度计算，增加相似症状筛选条件">
+      <created>1585799963680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585799963680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -384,19 +388,23 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.44334278" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3796034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57648724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改相似度计算，增加相似症状筛选条件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改相似度计算，增加相似症状筛选条件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/词典分类/否定/否定.txt">
@@ -467,9 +475,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataCrawler/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCrawler/stopwords.txt" />
     <entry file="file://$PROJECT_DIR$/DataCrawler/ti-idf_train.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -481,16 +487,6 @@
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="81">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataCrawler/deal_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,17 +518,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lstm_train.py">
+    <entry file="file://$PROJECT_DIR$/sim_symptoms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3343">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="4455">
+          <caret line="175" column="37" selection-start-line="175" selection-start-column="32" selection-end-line="175" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/x.py">
+    <entry file="file://$PROJECT_DIR$/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/词典分类/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50841">
+          <caret line="1883" column="2" lean-forward="true" selection-start-line="1883" selection-start-column="2" selection-end-line="1883" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word2vec_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataCrawler/deal_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/最终症状.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -543,54 +576,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/最终症状.txt">
+    <entry file="file://$PROJECT_DIR$/x.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+        <state relative-caret-position="594">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lstm_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/word2vec_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sim_symptoms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="175" column="20" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/词典分类/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="1883" column="2" lean-forward="true" selection-start-line="1883" selection-start-column="2" selection-end-line="1883" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stopwords.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41202">
-          <caret line="1526" column="2" lean-forward="true" selection-start-line="1526" selection-start-column="2" selection-end-line="1526" selection-end-column="2" />
         </state>
       </provider>
     </entry>

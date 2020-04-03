@@ -43,6 +43,7 @@ class ChatBotGraph:
         #获取程度词，时间词，频率词
         other_result=self.extract_answerkey.match_otheranswer(sent)
         print("结果".center(50, "*"))
+        print(sentiment_result[2])
         if sentiment_result[2]>0.9:#积极
             if len(final_scores)>0:#如果没有匹配到相似症状，则没有必要显示关键词
                 print("关键词：",result_key)
@@ -54,6 +55,7 @@ class ChatBotGraph:
             print(("相似的症状: " + str(res)))
             print("程度词，时间词，频率词:",other_result)
         print("end".center(54, "-"))
+        return final_scores,res
         # else:
         #     print("抱歉，没有匹配到关键词")
 
@@ -63,7 +65,31 @@ class ChatBotGraph:
 if __name__ == '__main__':
     handler = ChatBotGraph()
     while 1:
-        question = input('用户:')
-        answer = handler.chat_main(question)
-
+        questions = input('用户:')
+        handler.chat_main(questions)
+        # questions = re.sub("[\s+\.\!\/_,$%^*(+\"\')]+|[+——()?【】“”！：:，。？、~@#￥%……&*（）]+", " ",
+        #               questions)  # 去除符号
+        # questions = questions.strip().split(' ')
+        # num=0
+        # start=time.time()
+        # symptoms=dict()
+        # for question in questions:
+        #     num+=1
+        #     print("question:",question)
+        #     scores,syms = handler.chat_main(question)
+        #     for index in range(len(syms)):#统计所有症状，并选取最高的概率
+        #         if syms[index] not in symptoms.keys():
+        #             symptoms[syms[index]]=scores[index]
+        #         else:
+        #             if scores[index]>symptoms[syms[index]]:
+        #                 symptoms[syms[index]] = scores[index]
+        #     time.sleep(0.2)#避免频繁调用百度接口报错
+        #
+        # end=time.time()
+        # print("问题总数：",num)
+        # print("运行时间:%.2f秒" % (end - start))
+        #
+        # d_order = sorted(symptoms.items(), key=lambda x: x[1], reverse=True)  # 按字典集合中，每一个元组的第二个元素排列。
+        # # x相当于字典集合中遍历出来的一个元组。
+        # print("症状和评分结果：",d_order)
 
